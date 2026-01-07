@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(42, 42, 42);
+}
+#MainText{
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans";
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    transition: color 1s;
+    
+}
+#MainText:hover{
+    color: rgb(215,215,215);    
+}
+form{
+    text-align: center;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.045);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+    max-width: 700px;
+    
+}
+#Result{
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    transition: color 1s;    
+}
+#Result:hover{
+    color: rgb(215,215,215);     
+}
+#GenerateButton{
+    border-radius: 25px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(62,62,62);
+    border-color: rgb(255, 255, 255);
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Noto Sans";
+    font-weight: bolder;
+    transition: color 1s;
+}
+#GenerateButton:hover{
+    color: rgb(215,215,215);
+}
+#InputNumber{
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: "Noto Sans";
+    font-weight: bolder;
+    transition: color 1s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62,62,62);
+}
+#InputNumber:hover{
+    color:rgb(215, 215, 215);
+}
+#MultiplierText{
+    color: rgb(255, 255, 255);
+    font-family: "Noto Sans";
+    font-weight: bolder;
+    font-size: 20px;
+    transition: color 1s;
+}
+#MultiplierText:hover{
+color:rgb(215, 215, 215)
+}
+
+
+
+
